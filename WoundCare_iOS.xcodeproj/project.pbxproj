@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24017580286D8F32006E5E35 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401757F286D8F32006E5E35 /* OptionViewController.swift */; };
+		2407E7812872DBA800D63B9C /* SelectBodyPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407E7802872DBA800D63B9C /* SelectBodyPartViewController.swift */; };
+		2407E799287526BB00D63B9C /* ExamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407E798287526BB00D63B9C /* ExamViewController.swift */; };
+		2407E79B2875287100D63B9C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2407E79A2875287100D63B9C /* CameraController.swift */; };
+		2469106C286BE26C00BBBC00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469106B286BE26C00BBBC00 /* AppDelegate.swift */; };
+		2469106E286BE26C00BBBC00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469106D286BE26C00BBBC00 /* SceneDelegate.swift */; };
+		24691070286BE26C00BBBC00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2469106F286BE26C00BBBC00 /* ViewController.swift */; };
+		24691073286BE26C00BBBC00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24691071286BE26C00BBBC00 /* Main.storyboard */; };
+		24691075286BE26D00BBBC00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24691074286BE26D00BBBC00 /* Assets.xcassets */; };
+		24691078286BE26D00BBBC00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24691076286BE26D00BBBC00 /* LaunchScreen.storyboard */; };
+		24912FC628814CA600490C6B /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24912FC528814CA600490C6B /* PreviewViewController.swift */; };
+		24912FCF28912AE400490C6B /* SQLiteConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24912FCE28912AE400490C6B /* SQLiteConnect.swift */; };
+		24D511672876CD70009ED6B0 /* FontBodyPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D511662876CD70009ED6B0 /* FontBodyPartViewController.swift */; };
+		24D511692876D828009ED6B0 /* BackBodyPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D511682876D828009ED6B0 /* BackBodyPartViewController.swift */; };
+		24D5116B2876DA53009ED6B0 /* RightBodyPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5116A2876DA53009ED6B0 /* RightBodyPartViewController.swift */; };
+		24D5116D2876DA62009ED6B0 /* LeftBodyPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5116C2876DA62009ED6B0 /* LeftBodyPartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2401757F286D8F32006E5E35 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		2407E7802872DBA800D63B9C /* SelectBodyPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectBodyPartViewController.swift; sourceTree = "<group>"; };
+		2407E798287526BB00D63B9C /* ExamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamViewController.swift; sourceTree = "<group>"; };
+		2407E79A2875287100D63B9C /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		24691068286BE26C00BBBC00 /* WoundCare_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoundCare_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2469106B286BE26C00BBBC00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2469106D286BE26C00BBBC00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2469106F286BE26C00BBBC00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24691072286BE26C00BBBC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24691074286BE26D00BBBC00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24691077286BE26D00BBBC00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24691079286BE26D00BBBC00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24912FC528814CA600490C6B /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		24912FCE28912AE400490C6B /* SQLiteConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteConnect.swift; sourceTree = "<group>"; };
+		24D511662876CD70009ED6B0 /* FontBodyPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBodyPartViewController.swift; sourceTree = "<group>"; };
+		24D511682876D828009ED6B0 /* BackBodyPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackBodyPartViewController.swift; sourceTree = "<group>"; };
+		24D5116A2876DA53009ED6B0 /* RightBodyPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightBodyPartViewController.swift; sourceTree = "<group>"; };
+		24D5116C2876DA62009ED6B0 /* LeftBodyPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftBodyPartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24691065286BE26C00BBBC00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2469105F286BE26C00BBBC00 = {
+			isa = PBXGroup;
+			children = (
+				2469106A286BE26C00BBBC00 /* WoundCare_iOS */,
+				24691069286BE26C00BBBC00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24691069286BE26C00BBBC00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24691068286BE26C00BBBC00 /* WoundCare_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2469106A286BE26C00BBBC00 /* WoundCare_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2469106B286BE26C00BBBC00 /* AppDelegate.swift */,
+				2469106D286BE26C00BBBC00 /* SceneDelegate.swift */,
+				2469106F286BE26C00BBBC00 /* ViewController.swift */,
+				2401757F286D8F32006E5E35 /* OptionViewController.swift */,
+				24691071286BE26C00BBBC00 /* Main.storyboard */,
+				24691074286BE26D00BBBC00 /* Assets.xcassets */,
+				24691076286BE26D00BBBC00 /* LaunchScreen.storyboard */,
+				24691079286BE26D00BBBC00 /* Info.plist */,
+				2407E7802872DBA800D63B9C /* SelectBodyPartViewController.swift */,
+				2407E798287526BB00D63B9C /* ExamViewController.swift */,
+				2407E79A2875287100D63B9C /* CameraController.swift */,
+				24D511662876CD70009ED6B0 /* FontBodyPartViewController.swift */,
+				24D511682876D828009ED6B0 /* BackBodyPartViewController.swift */,
+				24D5116C2876DA62009ED6B0 /* LeftBodyPartViewController.swift */,
+				24D5116A2876DA53009ED6B0 /* RightBodyPartViewController.swift */,
+				24912FC528814CA600490C6B /* PreviewViewController.swift */,
+				24912FCE28912AE400490C6B /* SQLiteConnect.swift */,
+			);
+			path = WoundCare_iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24691067286BE26C00BBBC00 /* WoundCare_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2469107C286BE26D00BBBC00 /* Build configuration list for PBXNativeTarget "WoundCare_iOS" */;
+			buildPhases = (
+				24691064286BE26C00BBBC00 /* Sources */,
+				24691065286BE26C00BBBC00 /* Frameworks */,
+				24691066286BE26C00BBBC00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WoundCare_iOS;
+			productName = WoundCare_iOS;
+			productReference = 24691068286BE26C00BBBC00 /* WoundCare_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24691060286BE26C00BBBC00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					24691067286BE26C00BBBC00 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 24691063286BE26C00BBBC00 /* Build configuration list for PBXProject "WoundCare_iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2469105F286BE26C00BBBC00;
+			productRefGroup = 24691069286BE26C00BBBC00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24691067286BE26C00BBBC00 /* WoundCare_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24691066286BE26C00BBBC00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24691078286BE26D00BBBC00 /* LaunchScreen.storyboard in Resources */,
+				24691075286BE26D00BBBC00 /* Assets.xcassets in Resources */,
+				24691073286BE26C00BBBC00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24691064286BE26C00BBBC00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D5116B2876DA53009ED6B0 /* RightBodyPartViewController.swift in Sources */,
+				24D5116D2876DA62009ED6B0 /* LeftBodyPartViewController.swift in Sources */,
+				24691070286BE26C00BBBC00 /* ViewController.swift in Sources */,
+				24017580286D8F32006E5E35 /* OptionViewController.swift in Sources */,
+				2407E79B2875287100D63B9C /* CameraController.swift in Sources */,
+				2469106C286BE26C00BBBC00 /* AppDelegate.swift in Sources */,
+				24D511692876D828009ED6B0 /* BackBodyPartViewController.swift in Sources */,
+				24D511672876CD70009ED6B0 /* FontBodyPartViewController.swift in Sources */,
+				2407E7812872DBA800D63B9C /* SelectBodyPartViewController.swift in Sources */,
+				2469106E286BE26C00BBBC00 /* SceneDelegate.swift in Sources */,
+				2407E799287526BB00D63B9C /* ExamViewController.swift in Sources */,
+				24912FCF28912AE400490C6B /* SQLiteConnect.swift in Sources */,
+				24912FC628814CA600490C6B /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24691071286BE26C00BBBC00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24691072286BE26C00BBBC00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24691076286BE26D00BBBC00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24691077286BE26D00BBBC00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2469107A286BE26D00BBBC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2469107B286BE26D00BBBC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2469107D286BE26D00BBBC00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB9NNM5395;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WoundCare_iOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For taking photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "For saving photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "相簿權限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miis.WoundCare-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2469107E286BE26D00BBBC00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB9NNM5395;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WoundCare_iOS/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For taking photos.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "For saving photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "相簿權限";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.miis.WoundCare-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24691063286BE26C00BBBC00 /* Build configuration list for PBXProject "WoundCare_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2469107A286BE26D00BBBC00 /* Debug */,
+				2469107B286BE26D00BBBC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2469107C286BE26D00BBBC00 /* Build configuration list for PBXNativeTarget "WoundCare_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2469107D286BE26D00BBBC00 /* Debug */,
+				2469107E286BE26D00BBBC00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24691060286BE26C00BBBC00 /* Project object */;
+}
